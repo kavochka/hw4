@@ -70,10 +70,9 @@ public class Main {
         int three = 256;
         if (one > two && one > three) {
             System.out.println(one);
-        }
-        if (two > one && two > three) {
+        } else if (two > one && two > three) {
             System.out.println(two);
-        } else {
+        } else if (three > one && three > two) {
             System.out.println(three);
         }
     }
